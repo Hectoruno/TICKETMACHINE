@@ -38,6 +38,14 @@ public class TicketMachine
     }
     
     /**
+     * 
+     */
+    public void vaciar()
+    {
+        System.out.println("Dinero obtenido " + (getTotal()));
+        balance = 0;
+    }
+    /**
      * Return the price of a ticket.
      */
     public int getPrice()
